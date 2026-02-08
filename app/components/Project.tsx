@@ -81,7 +81,7 @@ export const Project = (project: ProjectType) => {
         isHoverable
         className={`${
           websiteUrl === "NONE" && "hidden"
-        } col-span-2 lg:row-start-3 lg:row-end-4 lg:col-start-3 lg:max-h-24 lg:col-end-4 opacity-0 mobile-animation githubUrlCard`}
+        } col-span-2 lg:row-start-3 lg:row-end-4 lg:col-start-3 lg:h-24 lg:col-end-4 opacity-0 mobile-animation githubUrlCard`}
       >
         <Link
           href={websiteUrl}
@@ -107,7 +107,7 @@ export const Project = (project: ProjectType) => {
           websiteUrl === "NONE"
             ? "lg:col-start-3 col-span-4"
             : "lg:col-start-4 col-span-2"
-        }  lg:row-start-3 lg:row-end-4 lg:max-h-24 lg:col-end-5 opacity-0 mobile-animation websiteUrlCard`}
+        }  lg:row-start-3 lg:row-end-4 lg:h-24 lg:col-end-5 opacity-0 mobile-animation websiteUrlCard`}
       >
         <Link
           href={githubUrl}
