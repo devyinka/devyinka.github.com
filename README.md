@@ -1,18 +1,16 @@
 # Portfolio
 
-<a href="https://leomiranda.vercel.app/" target="_blank">Live Demo</a>
+<a href="https://devyinka.github.io/" target="_blank">Live Demo</a>
 
-Portfolio showing information about me, technologies I've worked with and their live version and also a contact section.
-
-![portfolio](https://github.com/leoMirandaa/portfolio/assets/61714687/0d29ca0e-f280-478d-907d-987cd14941af)
+My personal portfolio showcasing my skills, projects, and experience as a developer. Built with modern web technologies.
 
 ## Author
 
-**Leo Miranda**
+**devyinka**
 
-- Repository-name "portfolio"
-- Released on "Vercel"
-- LinkedIn ""
+- Repository: "devyinka.github.io"
+- Released on "GitHub Pages"
+- GitHub: "https://github.com/devyinka"
 
 ## Installation
 
