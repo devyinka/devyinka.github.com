@@ -4,12 +4,9 @@ import { Project } from "../Project";
 
 export const Projects = () => {
   return (
-    <main className="flex flex-col gap-20">
+    <main className="flex flex-col gap-5">
       {ProjectList.map((project: ProjectType) => (
-        <Project
-          key={`project-item-${project.title}`}
-          {...project}
-        />
+        <Project key={`project-item-${project.title}`} {...project} />
       ))}
     </main>
   );
