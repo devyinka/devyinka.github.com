@@ -1,5 +1,5 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 
 import { Card, CardBody } from "@nextui-org/card";
@@ -20,6 +20,8 @@ export const Project = (project: ProjectType) => {
     githubUrl,
     websiteUrl,
   } = project;
+  const [shouldLoadVideo, setShouldLoadVideo] = useState(false);
+  const videoWrapperRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const mq = window.matchMedia("(min-width: 1024px)");
@@ -32,6 +34,24 @@ export const Project = (project: ProjectType) => {
     ProjectsSectionAnimations.githubUrlAnimation();
   }, []);
 
+  useEffect(() => {
+    if (shouldLoadVideo || !videoWrapperRef.current) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0]?.isIntersecting) {
+          setShouldLoadVideo(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "200px" },
+    );
+
+    observer.observe(videoWrapperRef.current);
+
+    return () => observer.disconnect();
+  }, [shouldLoadVideo]);
+
   return (
     <div className="grid gap-6 overflow-hidden lg:grid-cols-2 lg:items-start">
       <div className="flex lg:hidden items-center text-3xl font-bold text-white opacity-0 mobile-animation titleSection">
@@ -39,15 +59,20 @@ export const Project = (project: ProjectType) => {
         {title}
       </div>
 
-      <div className="opacity-0 mobile-animation videoSection">
+      <div
+        className="opacity-0 mobile-animation videoSection"
+        ref={videoWrapperRef}
+      >
         <div className="w-full overflow-hidden rounded-xl border-1 border-[#212121] aspect-video">
           <video
             className="h-full w-full object-cover"
             autoPlay
             loop
+            muted
             playsInline
+            preload="metadata"
             poster={imgUrl}
-            src={videoUrl}
+            src={shouldLoadVideo ? videoUrl : undefined}
           ></video>
         </div>
       </div>

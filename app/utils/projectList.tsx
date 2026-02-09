@@ -55,8 +55,9 @@ export const ProjectList: ProjectType[] = [
     ],
     description:
       "A full-stack event attendance system where students can register for multiple events with enforced track constraints. The platform uses QR codes for attendance tracking and implements role-based access control, allowing super admins to manage events and administrators while limiting sub-admins to attendance scanning.",
-    imgUrl: "/videos/shadcn-landing-page.webp",
-    videoUrl: "/videos/SmartAttendanceNew.mp4",
+    imgUrl: "/videos/SmartAttendanceNew.PNG",
+    videoUrl:
+      "https://res.cloudinary.com/daauphnqb/video/upload/v1770653000/SmartAttendanceNew_txyilf.mp4",
     githubUrl: "https://github.com/devyinka/NihubAttendance",
     websiteUrl: "https://nihub-attendance-vnqh.vercel.app",
   },
@@ -81,8 +82,9 @@ export const ProjectList: ProjectType[] = [
     ],
     description:
       "A Full-Stack React Native app that helps users find restaurants around a specific location by entering a place name. It fetches location coordinates using TomTom API and identifies nearby restaurants with Node Geocoder, displaying ratings, open/closed status, and other helpful details. The app features secure user authentication using Firebase, enabling users to create accounts, save favorite restaurants, and personalize their dining preferences seamlessly across devices.",
-    imgUrl: "/videos/magenta.webp",
-    videoUrl: "/videos/Restuarantnew.mp4",
+    imgUrl: "/videos/Restuarantnew.PNG",
+    videoUrl:
+      "https://res.cloudinary.com/daauphnqb/video/upload/v1770652825/Restuarantnew_el3esg.mp4",
     githubUrl: "https://github.com/devyinka/Restaurant-finder",
     websiteUrl: "",
   },
@@ -106,8 +108,9 @@ export const ProjectList: ProjectType[] = [
     ],
     description:
       "A React recipe discovery web application that allows users to search for meals and view ingredients and cooking instructions through a clean and intuitive interface..",
-    imgUrl: "/videos/sk8ter.webp",
-    videoUrl: "/videos/Recipe-finder.mp4",
+    imgUrl: "/videos/Recipe-finder.PNG",
+    videoUrl:
+      "https://res.cloudinary.com/daauphnqb/video/upload/v1770652915/Recipe-finder_ofvdno.mp4",
     githubUrl: "https://github.com/devyinka/Recipe-App",
     websiteUrl: "",
   },
