@@ -56,7 +56,7 @@ export const ProjectList: ProjectType[] = [
     description:
       "A full-stack event attendance system where students can register for multiple events with enforced track constraints. The platform uses QR codes for attendance tracking and implements role-based access control, allowing super admins to manage events and administrators while limiting sub-admins to attendance scanning.",
     imgUrl: "/videos/shadcn-landing-page.webp",
-    videoUrl: "/videos/Smart_Attendance.mp4",
+    videoUrl: "/videos/SmartAttendanceNew.mp4",
     githubUrl: "https://github.com/devyinka/NihubAttendance",
     websiteUrl: "https://nihub-attendance-vnqh.vercel.app",
   },
@@ -82,7 +82,7 @@ export const ProjectList: ProjectType[] = [
     description:
       "A Full-Stack React Native app that helps users find restaurants around a specific location by entering a place name. It fetches location coordinates using TomTom API and identifies nearby restaurants with Node Geocoder, displaying ratings, open/closed status, and other helpful details. The app features secure user authentication using Firebase, enabling users to create accounts, save favorite restaurants, and personalize their dining preferences seamlessly across devices.",
     imgUrl: "/videos/magenta.webp",
-    videoUrl: "/videos/Resturant.mp4",
+    videoUrl: "/videos/Restuarantnew.mp4",
     githubUrl: "https://github.com/devyinka/Restaurant-finder",
     websiteUrl: "",
   },
