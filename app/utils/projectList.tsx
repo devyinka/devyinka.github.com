@@ -86,7 +86,8 @@ export const ProjectList: ProjectType[] = [
     videoUrl:
       "https://res.cloudinary.com/daauphnqb/video/upload/v1770652825/Restuarantnew_el3esg.mp4",
     githubUrl: "https://github.com/devyinka/Restaurant-finder",
-    websiteUrl: "",
+    websiteUrl:
+      "https://expo.dev/preview/update?message=Latest+update&updateRuntimeVersion=1.0.0&createdAt=2026-02-09T17%3A45%3A58.695Z&slug=exp&projectId=9acd4c0c-7042-4309-98fd-b63ca8d665b8&group=020e7686-dd20-42f9-b827-e95b53652e6b",
   },
   {
     icon: <MagentaKitchenSVG />,
@@ -112,6 +113,6 @@ export const ProjectList: ProjectType[] = [
     videoUrl:
       "https://res.cloudinary.com/daauphnqb/video/upload/v1770652915/Recipe-finder_ofvdno.mp4",
     githubUrl: "https://github.com/devyinka/Recipe-App",
-    websiteUrl: "",
+    websiteUrl: "https://recipe-app-m3vn.vercel.app",
   },
 ];
