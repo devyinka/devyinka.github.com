@@ -16,7 +16,6 @@ import {
   SwaggerSVG,
   TailwindSVG,
   TypescriptSVG,
-  VueSVG,
 } from "../components/ui/icons";
 import { ProjectType } from "../types";
 import { NextSVG } from "../components/ui/icons/index";
