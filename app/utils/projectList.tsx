@@ -112,6 +112,8 @@ export const ProjectList: ProjectType[] = [
     videoUrl:
       "https://res.cloudinary.com/daauphnqb/video/upload/v1770652915/Recipe-finder_ofvdno.mp4",
     githubUrl: "https://github.com/devyinka/Recipe-App",
-    websiteUrl: "https://recipe-app-m3vn.vercel.app",
+    websiteUrl: "",
   },
 ];
+
+//https://recipe-app-m3vn.vercel.app
