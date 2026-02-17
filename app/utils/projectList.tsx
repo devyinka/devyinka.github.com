@@ -56,7 +56,7 @@ export const ProjectList: ProjectType[] = [
       "A full-stack event attendance system where students can register for multiple events with enforced track constraints. The platform uses QR codes for attendance tracking and implements role-based access control, allowing super admins to manage events and administrators while limiting sub-admins to attendance scanning.",
     imgUrl: "/videos/SmartAttendanceNew.PNG",
     videoUrl:
-      "https://res.cloudinary.com/prod/video/upload/w_400/me/tx-cards/video-preview.mp4",
+      "https://res.cloudinary.com/dnowbob2t/video/upload/Create_Next_App_-_17_February_2026_sr9lsm.mp4?_s=vp-3.7.2",
     githubUrl: "https://github.com/devyinka/NihubAttendance",
     websiteUrl: "https://nihub-attendance-vnqh.vercel.app",
   },
