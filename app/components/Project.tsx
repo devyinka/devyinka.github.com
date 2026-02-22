@@ -137,7 +137,7 @@ export const Project = (project: ProjectType) => {
             className="min-h-full flex justify-center items-center"
           >
             <CardBody className="justify-center items-center">
-              <GithubSVG />
+              <GithubSVG color="#ffffff" size={50} />
             </CardBody>
           </Link>
         </Card>
