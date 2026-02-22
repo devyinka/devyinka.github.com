@@ -69,7 +69,7 @@ export const Contact = () => {
           className="min-h-full flex justify-center items-center"
         >
           <CardBody className="flex justify-center items-center gap-2">
-            <GithubSVG />
+            <GithubSVG color="#ffffff" size={50} />
             <h1 className="text-3xl font-bold">Github Profile</h1>
             <p className="text-xl text-gray-400  text-center">
               Find more of my repositories
