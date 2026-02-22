@@ -4,7 +4,6 @@ import {
   TypescriptSVG,
   PostgreSQLSVG,
   ReactSVG,
-  ReactnativeSVG,
   TailwindSVG,
   ExpressSVG,
   NextSVG,
@@ -60,7 +59,6 @@ export const techonologyIconList: iconType[] = [
     name: "Next.js",
     icon: <NextSVG color={color} size={35} />,
   },
-
   {
     name: "React Native",
     icon: <ReactSVG color={color} size={35} />,
